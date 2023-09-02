@@ -1,6 +1,15 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
+"HRI":
+  url: /projects/hri
   color: "#00369f"
-
-"PhysRev":
-  url: https://journals.aps.org/
+  
+"Sarcasm":
+  url: /projects/sarcasm
+  color: "#a777c9"
+  
+"Visual Storytelling":
+  url: /projects/visual_storytelling
+  color: "#9392d1"
+  
+"Storytelling":
+  url: /projects/storytelling
+  color: "#92c9d1"

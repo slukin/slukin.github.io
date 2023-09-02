@@ -1,103 +1,611 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
+
 
 @inproceedings{halperin2023envisioning,
+  abbr={CHI},
   bibtex_show={true},
   title={Envisioning Narrative Intelligence: A Creative Visual Storytelling Anthology},
   author={Halperin, Brett A and Lukin, Stephanie M},
   booktitle={Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems},
   pages={1--21},
-  year={2023}
-}
-
-
-@inproceedings{halperin2023envisioning,
-  bibtex_show={true},
-  title={Envisioning Narrative Intelligence: A Creative Visual Storytelling Anthology},
-  author={Halperin, Brett A and Lukin, Stephanie M},
-  booktitle={Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems},
-  pages={1--21},
-  year={2023}
-}
-
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
-}
-
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
-}
-
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
+  year={2023},
+  abstract={In this paper, we collect an anthology of 100 visual stories from authors who participated in our systematic creative process of improvised story-building based on image sequences. Following close reading and thematic analysis of our anthology, we present five themes that characterize the variations found in this creative visual storytelling process: (1) Narrating What is in Vision vs. Envisioning; (2) Dynamically Characterizing Entities/Objects; (3) Sensing Experiential Information About the Scenery; (4) Modulating the Mood; (5) Encoding Narrative Biases. In understanding the varied ways that people derive stories from images, we offer considerations for collecting story-driven training data to inform automatic story generation. In correspondence with each theme, we envision narrative intelligence criteria for computational visual storytelling as: creative, reliable, expressive, grounded, and responsible. From these criteria, we discuss how to foreground creative expression, account for biases, and operate in the bounds of visual storyworlds.},
+  html={https://dl.acm.org/doi/10.1145/3544548.3580744},
   dimensions={true},
+  selected={true},
+  abbr={Visual Storytelling}
+}
+
+@inproceedings{lukin2023see,
+  abbr={Workshop},
+  bibtex_show={true},
+  title={SEE&TELL: Controllable Narrative Generation from Images},
+  author={Lukin, Stephanie M and Eum, Sungmin},
+  booktitle={The AAAI-23 Workshop on Creative AI Across Modalities},
+  year={2023},
+  html={https://openreview.net/pdf?id=_8Ity3P03Z1},
+  bibtex_show={true},
+  abstract={We propose a visual storytelling framework with a distinction between what is present and observable in the visual storyworld, and what story is ultimately told. We implement a model that tells a story from an image using three affordances: 1) a fixed set of visual properties in an image that constitute a holistic representation its contents, 2) a variable stage direction that establishes the story setting, and 3) incremental questions about character goals. The generated narrative plans are then realized as expressive texts using few-shot learning. Following this approach, we generated 64 visual stories and measured the preservation, loss, and gain of visual information throughout the pipeline, and the willingness of a reader to take action to read more. We report different proportions of visual information preserved and lost depending upon the phase of the pipeline and the stage direction's apparent relatedness to the image, and report 83% of stories were found to be interesting.},
+  abbr={Visual Storytelling},
   selected={true}
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
-
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@book{przibram1967letters,
+@inproceedings{summers2023brainstorm,
+  abbr={Workshop},
   bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif}
+  title={Brainstorm, then Select: a Generative Language Model Improves Its Creativity Score},
+  author={Summers-Stay, Douglas and Voss, Clare R and Lukin, Stephanie M},
+  booktitle={The AAAI-23 Workshop on Creative AI Across Modalities},
+  year={2023},
+  html={https://openreview.net/pdf?id=8HwKaJ1wvl},
+  abstract={Creative problem solving is a crucial ability for intelligent agents. A common method that individuals or groups use to invent creative solutions is to start with a ``brainstorming" phase, where many solutions to a problem are proposed, and then to follow with a ``selection" phase, where those solutions are judged by some criteria so that the best solutions can be selected. Using the Alternate Uses Task, a test for divergent thinking abilities (a key aspect of creativity) we show that when a large language model is given a sequence of prompts that include both brainstorming and selection phases, its performance improves over brainstorming alone. Furthermore, we show that by following this paradigm, a large language model can even achieve higher than average human performance on the same task. Following our analysis, we propose further research to gain a clearer understanding of what counts as ``creativity" in language models.},
+  bibtex_show={true},
+  abbr={NLG}
+}
+
+@inproceedings{lukin2023navigating,
+  title={Navigating to Success in Multi-Modal Human-Robot Collaboration: Corpus and Analysis},
+  author={Lukin, Stephanie M. and Pollard, Kimbery A. and Bonial, Claire and Hudson, Taylor and Artstein, Ron and Voss, Clare and Traum, David},
+  booktitle={IEEE International Symposium on Robot and Human Interactive Communication (RO-MAN)},
+  year={2023},
+  html={},
+  bibtex_show={true},
+  abstract={Human-guided robotic exploration is a useful approach to gathering information at remote locations, especially those that might be too risky, inhospitable, or inaccessible for humans. Maintaining common ground between the remotely-located partners is a challenge, one that can be facilitated by multi-modal communication. In this paper, we explore how participants utilized multiple modalities to investigate a remote location with the help of a robotic partner. Participants issued spoken natural language instructions and received from the robot: text-based feedback, continuous 2D LIDAR mapping, and upon-request static photographs. We noticed that different strategies were adopted in terms of use of the modalities, and hypothesize that these differences may be correlated with success at several exploration sub-tasks. We found that requesting photos may have improved the identification and counting of some key entities (doorways in particular) and that this strategy did not hinder the amount of overall area exploration. Future work with larger samples may reveal the effects of more nuanced photo and dialogue strategies, which can inform the training of robotic agents. Additionally, we announce the release of our unique multi-modal corpus of human-robot communication in an exploration context: SCOUT, the Situated Corpus on Understanding Transactions.},
+  abbr={HRI},
+  selected={true}
+}
+
+@inproceedings{marge2023bot,
+  bibtex_show={true},
+  title={Bot Language (Summary Technical Report, Oct 2016--Sep 2021)},
+  author={Marge, Matthew and Bonial, Claire and Lukin, Stephanie and Voss, Clare},
+  booktitle={DEVCOM Army Research Laboratory Technical Report},
+  year={2023},
+  html={https://apps.dtic.mil/sti/trecms/pdf/AD1194759.pdf},
+  bibtex_show={true},
+  abstract={This report provides a comprehensive summary of the contributions made as part of the Bot Language project, a 5-year US Army Combat Capabilities Development Command Army Research Laboratory-led initiative in partnership with researchers at the University of Southern Californias Institute for Creative Technologies and Carnegie Mellon University. In particular, this report describes accomplishments funded under the project Naturalistic Behavior for Shared Understanding and Explanation with Intelligent Systems. The goal of this research was to provide more natural ways for people to communicate with robots using language. Our vision was to enable robots to engage in a back-and-forth dialogue with human teammates where robots can provide status updates and ask for clarification where appropriate. To this end, we conducted a phased progression of four experiments where human participants were giving navigation instructions to a remotely located robot, while the robots dialogue and navigation processes were initially controlled by human experimenters. Over the course of the experiments, automation was progressively introduced until dialogue processing was completely driven by a classifier trained on the data collected in previous experiments.},
+  abbr={HRI}
+}
+
+@inproceedings{lukin2023learning,
+  bibtex_show={true},
+  title={Learning to Understand Anomalous Scenes from Human Interactions},
+  author={Lukin, Stephanie M and Sharma, Rahul and Bellissimo, Michael},
+  booktitle={DEVCOM Army Research Laboratory Technical Report},
+  year={2023},
+  html={https://apps.dtic.mil/sti/pdfs/AD1189942.pdf},
+  abstract={At the US Army Combat Capabilities Development Command Army Research Laboratory, we are studying behavior, buildingdata sets, and developing technology for anomaly classification and explanation, in which an autonomous agent generatesnatural language descriptions and interpretations of environments that may contain anomalous properties. This technology willsupport decision-making in uncertain conditions and resilient autonomous maneuvers where a Soldier and robot teammatecomplete exploratory navigation tasks in unknown or dangerous environments under network-constrained circumstances eg, search and rescue following a natural disaster. We detail our contributions in this report as follows we designed an anomalytaxonomy drawing upon related work in visual anomaly detection we designed two experiments taking place in virtualenvironments that were manipulated to exhibit anomalous properties based on the taxonomy we collected a small corpus ofhuman speech and humanrobot dialogue for an anomaly detection and explanation task and finally, we designed a novelannotation schema and applied it to a subset of our corpus.},
+  bibtex_show={true}
+}
+
+
+
+@inproceedings{bonialmaking,
+  abbr={Workshop},
+  bibtex_show={true},
+  title={Making Sense of Stop},
+  author={Bonial, Claire and Hudson, Taylor and Baker, Anthony L and Lukin, Stephanie M and Traum, David},
+  booktitle={Annotation, Recognition and Evaluation of Actions (AREA II) Workshop at ESSLLI},
+  year={2022},
+  html={https://www.areaworkshop.org/wp-content/uploads/2022/07/Bonial-etal-2022.pdf},
+  abstract={The instruction to “stop” in human-robot interactions is packed with multiple interpretations.“Stop” can convey the operator’s intent to indicate where the robot should halt motion, or it can convey the operator’s realization that the robot is not executing an instruction satisfactorily and begin the process of repair. We analyze cases of “stop” in a corpus of humanrobot dialogue, characterizing them along the dimensions of repair status and timing within the interaction, in order to discover patterns and develop design recommendations for how robots should make sense of “stop.”},
+  abbr={HRI}
+}
+
+@inproceedings{bonial2022search,
+  bibtex_show={true},
+  title={The Search for Agreement on Logical Fallacy Annotation of an Infodemic},
+  author={Bonial, Claire and Blodgett, Austin and Hudson, Taylor and Lukin, Stephanie and Micher, Jeffrey and Summers-Stay, Douglas and Sutor, Peter and Voss, Clare},
+  booktitle={Proceedings of the Thirteenth Language Resources and Evaluation Conference},
+  pages={4430--4438},
+  year={2022},
+  html={https://aclanthology.org/2022.lrec-1.471.pdf},
+  abstract={We evaluate an annotation schema for labeling logical fallacy types, originally developed for a crowd-sourcing annotation paradigm, now using an annotation paradigm of two trained linguist annotators. We apply the schema to a variety of different genres of text relating to the COVID-19 pandemic. Our linguist (as opposed to crowd-sourced) annotation of logical fallacies allows us to evaluate whether the annotation schema category labels are sufficiently clear and non-overlapping for both manual and, later, system assignment. We report inter-annotator agreement results over two annotation phases as well as a preliminary assessment of the corpus for training and testing a machine learning algorithm (Pattern-Exploiting Training) for fallacy detection and recognition. The agreement results and system performance underscore the challenging nature of this annotation task and suggest that the annotation schema and paradigm must be iteratively evaluated and refined in order to arrive at a set of annotation labels that can be reproduced by human annotators and, in turn, provide reliable training data for automatic detection and recognition systems.}
+}
+
+
+@inproceedings{sapkale2020maintaining,
+  title={Maintaining consistency and relevancy in multi-image visual storytelling},
+  author={Sapkale, Aishwarya and Lukin, Stephanie M},
+  year={2020},
+  booktitle={DEVCOM Army Research Laboratory Technical Report},
+  abstract={This report proposes an approach for visual storytelling across multiple images that prioritize two aspects of narrative generation 1 the retention of narrative consistency between clauses in the generated story and 2 the retention of relevancy between the generated story and the images from which it was derived. We take a structured approach to multi-image visual storytelling that centers around the middle image in a sequence of three. Acting as the focal point, or climax of the narrative, the plot points surrounding this are selected using events from the Atlas of Machine Commonsense ATOMIC corpus for if-then reasoning about daily activities, and then the selected events are subsequently grounded to the images. The result is an architecture that, given an author goal to guide the story in the form of a prompt, will generate a short narrative that retains a narrative arc and does not deviate from the content of the images.},
+  bibtex_show={true},
+  html={https://apps.dtic.mil/sti/pdfs/AD1115439.pdf},
+  abbr={Visual Storytelling}
+}
+
+
+@inproceedings{bonial2020infoforager,
+  title={InfoForager: Leveraging semantic search with AMR for COVID-19 research},
+  author={Bonial, Claire and Lukin, Stephanie and Doughty, David and Hill, Steven and Voss, Clare},
+  booktitle={Proceedings of the Second International Workshop on Designing Meaning Representations},
+  pages={67--77},
+  year={2020},
+  html={https://aclanthology.org/2020.dmr-1.7/},
+  bibtex_show={true},
+  abstract={This paper examines how Abstract Meaning Representation (AMR) can be utilized for finding answers to research questions in medical scientific documents, in particular, to advance the study of UV (ultraviolet) inactivation of the novel coronavirus that causes the disease COVID-19. We describe the development of a proof-of-concept prototype tool, InfoForager, which uses AMR to conduct a semantic search, targeting the meaning of the user question, and matching this to sentences in medical documents that may contain information to answer that question. This work was conducted as a sprint over a period of six weeks, and reveals both promising results and challenges in reducing the user search time relating to COVID-19 research, and in general, domain adaption of AMR for this task.}
+}
+
+@inproceedings{bonial2022you,
+  title={You Can't Quarantine the Truth: Lessons Learned in Logical Fallacy Annotation of an Infodemic},
+  author={Bonial, Claire and Hudson, Taylor A and Blodgett, Austin and Lukin, Stephanie M and Micher, Jeffrey and Summers-Stay, Douglas and Sutor, Peter and Voss, Clare R},
+  booktitle={DEVCOM Army Research Laboratory Technical Report},
+  year={2022},
+  html={https://apps.dtic.mil/sti/citations/AD1156298},
+  abstract={Given the current COVID-19 infodemic that crosses multiple genres of text, we posit that flagging potentially problematic information PPI retrieved by a semantic search system will be critical to combating mis- or disinformation. This report describes the construction of a COVID-19 corpus and a two-level annotation of logical fallacies in these documents, supplemented with inter-annotator agreement results over two development phases. We also report a preliminary assessment of the corpus for training and testing a machine learning algorithm Pattern-Exploiting Training for fallacy detection and recognition. The agreement results and system performance underscore the challenging nature of this annotation task. We propose targeted improvements for fallacy annotation and conclude that a practical implementation may be to report a documents overall fallacy rate as a measure of its credibility.},
+  bibtex_show={true}
+}
+
+
+@inproceedings{lukin2021extending,
+  title={Extending Generation and Evaluation and Metrics (GEM) to Grounded Natural Language Generation (NLG) Systems and Evaluating their Descriptive Texts Derived from Image Sequences},
+  author={Lukin, Stephanie M and Voss, Clare R},
+  year={2021},
+  abbr={Visual Storytelling},
+  abstract={We present here, for consideration in a future Generation and Evaluation and Metrics (GEM) challenge, a graduated, task-based approach to evaluating grounded natural language generation (NLG) systems that generate descriptive texts derived from sequences of input images. We start by characterizing grounded NLG tasks that generate descriptive texts at increasing levels of complexity, then step through examples of these levels with image sequences and facet targets (input) and their derivative descriptive texts (output) from our human-authored data set. For evaluating whether a grounded NLG system is “good enough” for users’ needs, we first ask if the user can recover the images the system used to derive descriptive texts at the relevant, graduated level of complexity. The texts judged as adequate in this image-selection task are then analyzed for their semantic facet units (SFUs), which form the basis for scoring descriptive texts generated by other grounded NLG systems. The image-selection and SFU scoring together constitute the evaluation we are piloting for grounded, data-to-text NLG systems.},
+  html={https://apps.dtic.mil/sti/trecms/pdf/AD1149441.pdf},
+  booktitle={DEVCOM Army Research Laboratory Technical Report},
+  bibtex_show={true}
+}
+
+
+
+
+@inproceedings{bonial2021context,
+  title={Context Is Key: Annotating Situated Dialogue Relations in Multi-floor Dialogue},
+  author={Bonial, Claire and Abrams, Mitchell and Baker, Anthony L. and Hudson, Taylor and Lukin, Stephanie M. and Traum, David and Voss, Clare R.},
+  booktitle={Proceedings of the 25th Workshop on the Semantics and Pragmatics of Dialogue},
+  year={2021},
+  html={https://openreview.net/pdf?id=InGUkjHlfO},
+  abstract={In order to account for the features of situated dialogue, we extend a multi-party, multifloor dialogue annotation schema so that it uniquely marks turns with language that must be grounded to the conversational or situational context. We then annotate a dataset of 168 human-robot dialogues using our extended, situated relation schema. Despite the addition of nuanced dialogue relations that reflect the kind of context referenced in the language, our inter-annotator agreement rates remain similar to those of the original annotation schema. Crucially, our updates separate data that can be used to train dialogue systems in essentially any context from those utterances in the data that are only appropriate in a particular situated environment.},
+  abbr={HRI},
+  bibtex_show={true}
+}
+
+@inproceedings{bonial-etal-2020-dialogue,
+    title = "Dialogue-AMR: {A}bstract {M}eaning {R}epresentation for Dialogue",
+    author = "Bonial, Claire  and
+      Donatelli, Lucia  and
+      Abrams, Mitchell  and
+      Lukin, Stephanie M.  and
+      Tratz, Stephen  and
+      Marge, Matthew  and
+      Artstein, Ron  and
+      Traum, David  and
+      Voss, Clare",
+    booktitle = "Proceedings of the 12th Language Resources and Evaluation Conference",
+    month = may,
+    year = "2020",
+    address = "Marseille, France",
+    publisher = "European Language Resources Association",
+    pages = "684--695",
+    abstract = "This paper describes a schema that enriches Abstract Meaning Representation (AMR) in order to provide a semantic representation for facilitating Natural Language Understanding (NLU) in dialogue systems. AMR offers a valuable level of abstraction of the propositional content of an utterance; however, it does not capture the illocutionary force or speaker{'}s intended contribution in the broader dialogue context (e.g., make a request or ask a question), nor does it capture tense or aspect. We explore dialogue in the domain of human-robot interaction, where a conversational robot is engaged in search and navigation tasks with a human partner. To address the limitations of standard AMR, we develop an inventory of speech acts suitable for our domain, and present {``}Dialogue-AMR{''}, an enhanced AMR that represents not only the content of an utterance, but the illocutionary force behind it, as well as tense and aspect. To showcase the coverage of the schema, we use both manual and automatic methods to construct the {``}DialAMR{''} corpus{---}a corpus of human-robot dialogue annotated with standard AMR and our enriched Dialogue-AMR schema. Our automated methods can be used to incorporate AMR into a larger NLU pipeline supporting human-robot dialogue.",
+    language = "English",
+    ISBN = "979-10-95546-34-4",
+    html={https://aclanthology.org/2020.lrec-1.86.pdf},
+    bibtex_show={true}
+}
+
+@article{lukin2019visual,
+  title={Visual Understanding and Narration: A Deeper Understanding and Explanation of Visual Scenes},
+  author={Lukin, Stephanie M. and Bonial, Claire and Voss, Clare R.},
+  journal={Proceedings of the Workshop on Shortcomings in Vision and Language (SiVL)},
+  year={2019},
+  html={https://arxiv.org/pdf/1906.00038},
+  bibtex_show={true},
+  abstract={We describe the task of Visual Understanding and Narration, in which a robot (or agent) generates text for the images that it collects when navigating its environment, by answering open-ended questions, such as 'what happens, or might have happened, here?'},
+  abbr={Visual Storytelling}
+}
+
+@inproceedings{bonial2019dialogue,
+  title={Dialogue Structure Annotation Guidelines for Army Research Laboratory (ARL) Human-Robot Dialogue Corpus},
+  author={Bonial, Claire and Traum, David and Henry, Cassidy and Lukin, Stephanie M. and Marge, Matthew and Artstein, Ron and Pollard, Kimberly A. and Foots, Ashley and Baker, Anthony L. and Voss, Clare R.},
+  year={2019},
+  number={AD1082511},
+  booktitle={DEVCOM Army Research Laboratory Technical Report},
+  html={https://apps.dtic.mil/sti/pdfs/AD1082511.pdf},
+  bibtex_show={true},
+  abstract={Here we provide detailed guidelines on how to annotate a multifloor human-robot dialogue for structure elements relevant to informing dialogue management in robotic systems. We start with transcribed and time-aligned dialogue data collected from participants and Wizards of Oz across multiple years of an Army Research Laboratory human-robot interaction experiment the Bot Language project. We define structure elements and annotation protocol for marking up these dialogue data, with the aim to inform development of a dialogue management system onboard a robot.},
+  abbr={HRI}
+}
+
+@article{lukin2019narrative,
+  title={A narrative sentence planner and structurer for domain independent, parameterizable storytelling},
+  author={Lukin, Stephanie M and Walker, Marilyn A},
+  journal={Dialogue \& Discourse},
+  volume={10},
+  number={1},
+  pages={34--86},
+  year={2019},
+  html={https://core.ac.uk/download/pdf/230776141.pdf},
+  bibtex_show={true},
+  abstract={Storytelling is an integral part of daily life and a key part of how we share information and connect with others. The ability to use Natural Language Generation (NLG) to produce stories that are tailored and adapted to the individual reader could have large impact in many different applications. However, one reason that this has not become a reality to date is the NLG story gap, a disconnect between the plan-type representations that story generation engines produce, and the linguistic representations needed by NLG engines. Here we describe Fabula Tales, a storytelling system supporting both story generation and NLG. With manual annotation of texts from existing stories using an intuitive user interface, Fabula Tales automatically extracts the underlying story representation and its accompanying syntactically grounded representation. Narratological and sentence planning parameters are applied to these structures to generate different versions of the story. We show how our storytelling system can alter the story at the sentence level, as well as the discourse level. We also show that our approach can be applied to different kinds of stories by testing our approach on both Aesop’s Fables and first-person blogs posted on social media. The content and genre of such stories varies widely, supporting our claim that our approach is general and domain independent. We then conduct several user studies to evaluate the generated story variations and show that Fabula Tales’ automatically produced variations are perceived as more immediate, interesting, and correct, and are preferred to a baseline generation system that does not use narrative parameters.},
+  abbr={Storytelling},
+  selected={true}
+}
+
+@inproceedings{bowden2019data,
+  title={Data-driven dialogue systems for social agents},
+  author={Bowden, Kevin K and Oraby, Shereen and Misra, Amita and Wu, Jiaqi and Lukin, Stephanie and Walker, Marilyn},
+  booktitle={Advanced Social Interaction with Agents: 8th International Workshop on Spoken Dialog Systems},
+  pages={53--56},
+  year={2019},
+  organization={Springer},
+  html={In order to build dialogue systems to tackle the ambitious task of holding social conversations, we argue that we need a data-driven approach that includes insight into human conversational “chit-chat”, and which incorporates different natural language processing modules. Our strategy is to analyze and index large corpora of social media data, including Twitter conversations, online debates, dialogues between friends, and blog posts, and then to couple this data retrieval with modules that perform tasks such as sentiment and style analysis, topic modeling, and summarization. We aim for personal assistants that can learn more nuanced human language, and to grow from task-oriented agents to more personable social bots.},
+  bibtex_show={true},
+  abstract={https://www.academia.edu/download/54168761/IWSDS2017_paper_33.pdf},
+  abbr={Dialogue}
+}
+
+
+
+@inproceedings{bonial-area,
+  title={Human-Robot Dialogue and Collaboration in Search and Navigation},
+  author={Bonial, Claire and Lukin, Stephanie and Foots, Ashley and Henry, Cassidy and Marge, Matthew and Pollard, Kimberly and Artstein, Ron and Traum, David and Voss, Clare R.},
+  booktitle={Proceedings of the Annotation, Recognition and Evaluation of Actions (AREA) Workshop at LREC, 2018},
+  year={2018},
+  html={https://research.rug.nl/files/65256401/book_of_proceedings.pdf#page=14},
+  bibtex_show={true},
+  abstract={Collaboration with a remotely located robot in tasks such as disaster relief and search and rescue can be facilitated by grounding natural language task instructions into actions executable by the robot in its current physical context. The corpus we describe here provides insight into the translation and interpretation a natural language instruction undergoes starting from verbal human intent, to understanding and processing, and ultimately, to robot execution. We use a ‘Wizard-of-Oz’methodology to elicit the corpus data in which a participant speaks freely to instruct a robot on what to do and where to move through a remote environment to accomplish collaborative search and navigation tasks. This data offers the potential for exploring and evaluating action models by connecting natural language instructions to execution by a physical robot (controlled by a human ‘wizard’). In this paper, a description of the corpus (soon to be openly available) and examples of actions in the dialogue are provided.},
+  abbr={HRI}
+}
+
+@InProceedings{lukin2018scoutbot,
+  author={Lukin, Stephanie M. and Gervits, Felix and Hayes, Cory J. and Leuski, Anton and Moolchandani, Pooja and Rogers, III, John G. and Sanchez Amaro, Carlos and Marge, Matthew and Voss, Clare R. and Traum, David},
+  title = "{ScoutBot: A Dialogue System for Collaborative Navigation}",
+  booktitle = "Proceedings of ACL 2018, System Demonstrations",
+  month = {July},
+  year = {2018},
+  address = {Melbourne, Australia},
+  html={https://www.aclweb.org/anthology/P18-4016},
+  pages = {93--98},
+  html={https://aclanthology.org/P18-4.pdf#page=107},
+  bibtex_show={true},
+  abstract={ScoutBot is a dialogue interface to physical and simulated robots that supports collaborative exploration of environments. The demonstration will allow users to issue unconstrained spoken language commands to ScoutBot. ScoutBot will prompt for clarification if the user's instruction needs additional input. It is trained on human-robot dialogue collected from Wizard-of-Oz experiments, where robot responses were initiated by a human wizard in previous interactions. The demonstration will show a simulated ground robot (Clearpath Jackal) in a simulated environment supported by ROS (Robot Operating System).},
+  selected={true},
+  abbr={HRI}
+}
+
+
+@inproceedings{marge2018balancing,
+  title={Balancing Efficiency and Coverage in Human-Robot Dialogue Collection},
+  author={Marge, Matthew and Bonial, Claire and Lukin, Stephanie and Hayes, Cory and Foots, Ashley and Artstein, Ron and Henry, Cassidy and Pollard, Kimberly and Gordon, Carla and Gervits, Felix and Leuski, Anton and Hill, Susan and Voss, Clare and Traum, David},
+  booktitle={Proceedings of AI-HRI AAAI-FSS},
+  year={2018},
+  html={https://www.researchgate.net/profile/Kimberly-Pollard-2/publication/347986753_Balancing_Efficiency_and_Coverage_in_Human-Robot_Dialogue_Collection/links/5feb9dc3299bf1408859ccc0/Balancing-Efficiency-and-Coverage-in-Human-Robot-Dialogue-Collection.pdf},
+  bibtex_show={true},
+  abstract={We describe a multi-phased Wizard-of-Oz approach to collecting human-robot dialogue in a collaborative search and navigation task. The data is being used to train an initial automated robot dialogue system to support collaborative exploration tasks. In the first phase, a wizard freely typed robot utterances to human participants. For the second phase, this data was used to design a GUI that includes buttons for the most common communications, and templates for communications with varying parameters. Comparison of the data gathered in these phases show that the GUI enabled a faster pace of dialogue while still maintaining high coverage of suitable responses, enabling more efficient targeted data collection, and improvements in natural language understanding using GUI-collected data. As a promising first step towards interactive learning, this work shows that our approach enables the collection of useful training data for navigation-based HRI tasks.},
+  abbr={HRI}
+  
+}
+
+
+@InProceedings{bonial2019augmenting,
+  author    = {Claire Bonial and Lucia Donatelli and Stephanie M. Lukin and Stephen Tratz and Ron Artstein and David Traum and Clare R. Voss},
+  title     = {Augmenting {A}bstract {M}eaning {R}epresentation for Human-Robot Dialogue},
+  booktitle = {Proceedings of the First International Workshop on Designing Meaning Representations (DMR)},
+  pages     = {199--210},
+  month     = {August},
+  year      = {2019},
+  address   = {Florence, Italy},
+  url       = {https://www.aclweb.org/anthology/W19-3322},
+}
+
+
+
+@InProceedings{henrybot,
+  Title={The Bot Language Project: Moving Towards Natural Dialogue with Robots},
+  Booktitle={Proc. of SoCalNLP Symbosium},
+  Year={2018},
+  html={http://www.cassidyhenry.com/papers/socalnlp18.pdf},
+  bibtex_show={true},
+  author={Henry, Cassidy and Lukin, Stephanie and Pollard, Kimberly A and Bonial, Claire and Foots, Ashley and Artstein, Ron and Voss, Clare R and Traum, David and Marge, Matthew and Hayes, Cory J and Hill, Susan J.},
+  abstract={This paper describes an ongoing project investigating bidirectional human-robot NL dialogue with the goal of providing more natural ways for humans to interact with robots. We present the experiment’s resulting corpus, current findings, and future work towards a fully automated system.},
+  abbr={HRI},
+}
+
+@InProceedings{henryfaster,
+  title={Faster Pace in Human-Robot Dialogue Leads to Fewer Dialogue Overlaps},
+  author={Henry, Cassidy and Gordon, Carla and Traum, David and Lukin, Stephanie M. and Pollard, Kimberly A. and Artstein, Ron and Bonial, Claire and Voss, Clare R. and Foots, Ashley and Marge, Matthew},
+  booktitle={Proc. of NAACL Workshop on Widening NLP},
+  year={2018},
+  html={http://cassidyhenry.com/papers/winlp18_chenry.pdf},
+  bibtex_show={true},
+  abstract={In this paper, dialogue overlap at the transaction unit structure level is examined. In particular we investigate a corpus of multi-floor dialogue in a human-robot navigation domain. Two conditions are contrasted: a human wizard typing with a keyboard vs using a constricted GUI. The GUI condition leads to more utterances and transaction units, but leads to less overlap at the transaction unit level.},
+  abbr={HRI}
+}
+
+@inproceedings{pollard2018we,
+  title={How we talk with robots: Eliciting minimally-constrained speech to build natural language interfaces and capabilities},
+  author={Pollard, Kimberly A and Lukin, Stephanie M and Marge, Matthew and Foots, Ashley and Hill, Susan G},
+  booktitle={Proceedings of the Human Factors and Ergonomics Society Annual Meeting},
+  volume={62},
+  number={1},
+  pages={160--164},
+  year={2018},
+  organization={SAGE Publications Sage CA: Los Angeles, CA},
+  abbr={HRI},
+  html={https://www.researchgate.net/profile/Kimberly-Pollard-2/publication/335565997_How_We_Talk_with_Robots_Eliciting_Minimally-Constrained_Speech_to_Build_Natural_Language_Interfaces_and_Capabilities/links/5d6d462b299bf1808d610da9/How-We-Talk-with-Robots-Eliciting-Minimally-Constrained-Speech-to-Build-Natural-Language-Interfaces-and-Capabilities.pdf},
+  bibtex_show={true},
+  abstract={Industry, military, and academia are showing increasing interest in collaborative human-robot teaming in a variety of task contexts. Designing effective user interfaces for human-robot interaction is an ongoing challenge, and a variety of single and multiple-modality interfaces have been explored. Our work is to develop a bi-directional natural language interface for remote human-robot collaboration in physically situated tasks. When combined with a visual interface and audio cueing, we intend for the natural language interface to provide a naturalistic user experience that requires little training. Building the language portion of this interface requires first understanding how potential users would speak to the robot. In this paper, we describe our elicitation of minimally-constrained robot-directed language, observations about the users’ language behavior, and future directions for constructing an automated robotic system that can accommodate these language needs.}
+}
+
+@inproceedings{lukin-etal-2018-consequences,
+    title = "Consequences and Factors of Stylistic Differences in Human-Robot Dialogue",
+    author = "Lukin, Stephanie  and
+      Pollard, Kimberly  and
+      Bonial, Claire  and
+      Marge, Matthew  and
+      Henry, Cassidy  and
+      Artstein, Ron  and
+      Traum, David  and
+      Voss, Clare",
+    booktitle = "Proceedings of the 19th Annual {SIG}dial Meeting on Discourse and Dialogue",
+    month = jul,
+    year = "2018",
+    address = "Melbourne, Australia",
+    publisher = "Association for Computational Linguistics",
+    pages = "110--118",
+    abstract = "This paper identifies stylistic differences in instruction-giving observed in a corpus of human-robot dialogue. Differences in verbosity and structure (i.e., single-intent vs. multi-intent instructions) arose naturally without restrictions or prior guidance on how users should speak with the robot. Different styles were found to produce different rates of miscommunication, and correlations were found between style differences and individual user variation, trust, and interaction experience with the robot. Understanding potential consequences and factors that influence style can inform design of dialogue systems that are robust to natural variation from human users.",
+    html={https://www.sigdial.org/files/workshops/conference19/proceedings/pdf/SIGdial12.pdf},
+    bibtex_show={true},
+    abbr={HRI},
+}
+
+
+@InProceedings{traum2018dialogue,
+  author = {David Traum and Cassidy Henry and Stephanie Lukin and Ron Artstein and Felix Gervits and Kimberly Pollard and Claire Bonial and Su Lei and Clare Voss and Matthew Marge and Cory Hayes and Susan Hill},
+  title = "Dialogue Structure Annotation for Multi-Floor Interaction",
+  booktitle = {Proceedings of the Eleventh International Conference on Language Resources and Evaluation (LREC)},
+  year = {2018},
+  month = {May 7-12, 2018},
+  address = {Miyazaki, Japan},
+  editor = {Nicoletta Calzolari (Conference chair) and Khalid Choukri and Christopher Cieri and Thierry Declerck and Sara Goggi and Koiti Hasida and Hitoshi Isahara and Bente Maegaard and Joseph Mariani and Hélène Mazo and Asuncion Moreno and Jan Odijk and Stelios Piperidis and Takenobu Tokunaga},
+  publisher = {European Language Resources Association (ELRA)},
+  isbn = {979-10-95546-00-9},
+  language = {english},
+  pages={104--111},
+  html={https://aclanthology.org/L18-1017.pdf},
+  bibtex_show={true},
+  abstract={We present an annotation scheme for meso-level dialogue structure, specifically designed for multi-floor dialogue. The scheme includes a transaction unit that clusters utterances from multiple participants and floors into units according to realization of an initiator’s intent, and relations between individual utterances within the unit. We apply this scheme to annotate a corpus of multi-floor human-robot interaction dialogues. We examine the patterns of structure observed in these dialogues and present inter-annotator statistics and relative frequencies of types of relations and transaction units. Finally, some example applications of these annotations are introduced.},
+  abbr={HRI}
+}
+
+
+@article{oraby2018controlling,
+  title={Controlling Personality-Based Stylistic Variation with Neural Natural Language Generators},
+  author={Oraby, Shereen and Reed, Lena and Tandon, Shubhangi and Sharath, TS and Lukin, Stephanie and Walker, Marilyn},
+  journal={SIGdial Meeting on Discourse and Dialogue (SIGDIAL)},
+  year={2018},
+  html={https://arxiv.org/pdf/1805.08352},
+  bibtex_show={true},
+  abstract={Natural language generators for task-oriented dialogue must effectively realize system dialogue actions and their associated semantics. In many applications, it is also desirable for generators to control the style of an utterance. To date, work on task-oriented neural generation has primarily focused on semantic fidelity rather than achieving stylistic goals, while work on style has been done in contexts where it is difficult to measure content preservation. Here we present three different sequence-to-sequence models and carefully test how well they disentangle content and style. We use a statistical generator, Personage, to synthesize a new corpus of over 88,000 restaurant domain utterances whose style varies according to models of personality, giving us total control over both the semantic content and the stylistic variation in the training data. We then vary the amount of explicit stylistic supervision given to the three models. We show that our most explicit model can simultaneously achieve high fidelity to both semantic and stylistic goals: this model adds a context vector of 36 stylistic parameters as input to the hidden state of the encoder at each time step, showing the benefits of explicit stylistic supervision, even when the amount of training data is large.},
+  abbr={NLG}
+}
+
+@article{tandon2018tnt,
+  title={TNT-NLG, System 2: Data repetition and meaning representation manipulation to improve neural generation},
+  author={Tandon, Shubhangi and Sharath, TS and Oraby, Shereen and Reed, Lena and Lukin, Stephanie and Walker, Marilyn},
+  journal={E2E NLG Challenge System Descriptions},
+  year={2018},
+  html={https://ufal.mff.cuni.cz/~odusek/E2E/final_papers/E2E-TNT_NLG2.pdf},
+  abstract={End-to-End (E2E) neural models that learn and generate natural language sentence realizations in one step have recently received a great deal of interest from the natural language generation (NLG) community. In this paper, we present “TNT-NLG” System 2, our second system submission in the E2E NLG challenge, which focuses on generating coherent natural language realizations from meaning representations (MRs) in the restaurant domain. We tackle the problem of improving the output of a neural generator based on the open-source baseline model from Dusek et al. (2016) by vastly expanding the training data size by repetition of instances in training, and permutation of the MR. We see that simple modifications allow for increases in performance by providing the generator with a much larger sample of data for learning. Our system is evaluated using quantitative metrics and qualitative human evaluation, and scores competitively in the challenge.},
+bibtex_show={true},
+abbr={NLG}
+}
+
+@article{oraby2018tnt,
+  title={TNT-NLG, System 1: Using a statistical NLG to massively augment crowd-sourced data for neural generation},
+  author={Oraby, Shereen and Reed, Lena and Tandon, Shubhangi and TS, Sharath and Lukin, Stephanie and Walker, Marilyn},
+  journal={E2E NLG Challenge System Descriptions},
+  year={2018},
+  html={https://ufal.mff.cuni.cz/~odusek/E2E/final_papers/E2E-TNT_NLG1.pdf},
+  bibtex_show={true},
+  abstract={Ever since the successful application of sequence to sequence learning for neural machine translation systems (Sutskever et al., 2014), interest has surged in its applicability towards language generation in other problem domains. In the area of natural language generation (NLG), there has been a great deal of interest in end-to-end (E2E) neural models that learn and generate natural language sentence realizations in one step. In this paper, we present TNT-NLG System 1, our first system submission to the E2E NLG Challenge, where we generate natural language (NL) realizations from meaning representations (MRs) in the restaurant domain by massively expanding the training dataset. We develop two models for this system, based on Dusek et al.’s (2016a) open source baseline model and context-aware neural language generator. Starting with the MR and NL pairs from the E2E generation challenge dataset, we explode the size of the training set using PERSONAGE (Mairesse and Walker, 2010), a statistical generator able to produce varied realizations from MRs, and use our expanded data as contextual input into our models. We present evaluation results using automated and human evaluation metrics, and describe directions for future work.},
+abbr={NLG}
+}
+
+@article{lukin2018pipeline,
+  title={A Pipeline for Creative Visual Storytelling},
+  author={Lukin, Stephanie M. and Hobbs, Reginald and Voss, Clare R.},
+  journal={Proceedings of the First Workshop on Storytelling (StoryNLP)},
+  year={2018},
+  html={https://aclanthology.org/W18-15.pdf#page=30},
+  bibtex_show={true},
+  abstract={Computational visual storytelling produces a textual description of events and interpretations depicted in a sequence of images. These texts are made possible by advances and cross-disciplinary approaches in natural language processing, generation, and computer vision. We define a computational creative visual storytelling as one with the ability to alter the telling of a story along three aspects: to speak about different environments, to produce variations based on narrative goals, and to adapt the narrative to the audience. These aspects of creative storytelling and their effect on the narrative have yet to be explored in visual storytelling. This paper presents a pipeline of task-modules, Object Identification, Single-Image Inferencing, and Multi-Image Narration, that serve as a preliminary design for building a creative visual storyteller. We have piloted this design for a sequence of images in an annotation task. We present and analyze the collected corpus and describe plans towards automation.},
+  abbr={Visual Storytelling},
+  selected={true}
+}
+
+@phdthesis{lukin2017doctor,
+  title={Generating variations in a virtual storyteller},
+  booktitle={Doctor of Philosophy in COMPUTER SCIENCE},
+  author={Lukin, Stephanie M},
+  year={2017},
+  school={University of California, Santa Cruz},
+  html={https://escholarship.org/content/qt0mf0f4js/qt0mf0f4js_noSplash_944974fccb1a37d0dae20428024b9632.pdf},
+  bibtex_show={true},
+  abstract={This dissertation introduces the Expressive-Story Translator (EST) content planner and Fabula Tales sentence planner in a storytelling natural language generation framework. Both planners operate in a domain independent manner, abstractly modeling a variety of stories regardless of story vocabulary. The EST captures story semantics from a narrative representation and constructs text plans to maintain semantic content through rhetorical relations. Content planning is performed using these relations to enhance narrative effects, such as modeling emotions and temporal reordering. The EST transforms the story into semantic-syntactic structures interpreted by the parameterizable sentence planner, Fabula Tales. The semantic-syntactic integration allows Fabula Tales to employ narrative sentence planning devices to change narrator point of view, insert direct speech acts, and supplement character voice using operations for lexical selection, aggregation, and pragmatic marker insertion. The frameworks are evaluated using traditional machine translation metrics, narrative metrics, and overgenerate and rank to holistically test the effectiveness of each generated retelling. This work shows how different framings affect reader perception of stories and its characters, and uses statistical analysis of reader feedback to build story models tailored for specific narration preferences.},
+  abbr={Storytelling}
+}
+
+
+
+@article{lukin2017argument,
+  title={Argument strength is in the eye of the beholder: Audience effects in persuasion},
+  author={Lukin, Stephanie M and Anand, Pranav and Walker, Marilyn and Whittaker, Steve},
+  journal={European Chapter of the Association for Computational Linguistics (EACL)},
+  year={2017},
+  html={https://scholar.archive.org/work/erjsgaihrfa3ve6mslqzbwavg4/access/wayback/http://aclweb.org/anthology/E17-1070},
+  bibtex_show={true},
+  abstract={Americans spend about a third of their time online, with many participating in online conversations on social and political issues. We hypothesize that social media arguments on such issues may be more engaging and persuasive than traditional media summaries, and that particular types of people may be more or less convinced by particular styles of argument, e.g. emotional arguments may resonate with some personalities while factual arguments resonate with others. We report a set of experiments testing at large scale how audience variables interact with argument style to affect the persuasiveness of an argument, an under-researched topic within natural language processing. We show that belief change is affected by personality factors, with conscientious, open and agreeable people being more convinced by emotional arguments.},
+  abbr={Persuasion}
+}
+
+
+
+@article{bonial2017laying,
+  title={Laying Down the Yellow Brick Road: Development of a Wizard-of-Oz Interface for Collecting Human-Robot Dialogue},
+  author={Bonial, Claire and Marge, Matthew and Foots, Ashley and Gervits, Felix and Hayes, Cory J and Henry, Cassidy and Hill, Susan G and Leuski, Anton and Lukin, Stephanie M and Moolchandani, Pooja and Pollard, Kimberly A and Traum, David and Voss, Clare R},
+  journal={Symposium on Natural Communication for Human-Robot Collaboration, AAAI FSS},
+  year={2017},
+  html={https://arxiv.org/pdf/1710.06406},
+  bibtex_show={true},
+  abstract={We describe the adaptation and refinement of a graphical user interface designed to facilitate a Wizard-of-Oz (WoZ) approach to collecting human-robot dialogue data. The data collected will be used to develop a dialogue system for robot navigation. Building on an interface previously used in the development of dialogue systems for virtual agents and video playback, we add templates with open parameters which allow the wizard to quickly produce a wide variety of utterances. Our research demonstrates that this approach to data collection is viable as an intermediate step in developing a dialogue system for physical robots in remote locations from their users - a domain in which the human and robot need to regularly verify and update a shared understanding of the physical environment. We show that our WoZ interface and the fixed set of utterances and templates therein provide for a natural pace of dialogue with good coverage of the navigation domain.},
+  abbr={HRI}
+}
+
+@article{lukin2016personabank,
+  title={Personabank: A corpus of personal narratives and their story intention graphs},
+  author={Lukin, Stephanie M and Bowden, Kevin and Barackman, Casey and Walker, Marilyn A},
+  journal={International Conference on Language Resources and Evaluation (LREC)},
+  year={2016},
+  html={http://www.lrec-conf.org/proceedings/lrec2016/pdf/356_Paper.pdf},
+  bibtex_show={true},
+  abstract={We present a new corpus, PersonaBank, consisting of 108 personal stories from weblogs that have been annotated with their Story Intention Graphs, a deep representation of the fabula of a story. We describe the topics of the stories and the basis of the Story Intention Graph representation, as well as the process of annotating the stories to produce the Story Intention Graphs and the challenges of adapting the tool to this new personal narrative domain We also discuss how the corpus can be used in applications that retell the story using different styles of tellings, co-tellings, or as a content planner.},
+  abbr={Storytelling}
+}
+
+@article{lukin2015generating,
+  title={Generating sentence planning variations for story telling},
+  author={Lukin, Stephanie M and Reed, Lena I and Walker, Marilyn A},
+  journal={SIGdial Meeting on Discourse and Dialogue (SIGDIAL)},
+  year={2015},
+  html={https://aclanthology.org/W15-4627.pdf},
+  abstract={There has been a recent explosion in applications for dialogue interaction ranging from direction-giving and tourist information to interactive story systems. Yet the natural language generation (NLG) component for many of these systems remains largely handcrafted. This limitation greatly restricts the range of applications; it also means that it is impossible to take advantage of recent work in expressive and statistical language generation that can dynamically and automatically produce a large number of variations of given content. We propose that a solution to this problem lies in new methods for developing language generation resources. We describe the ES-TRANSLATOR, a computational language generator that has previously been applied only to fables, and quantitatively evaluate the domain independence of the EST by applying it to personal narratives from weblogs. We then take advantage of recent work on language generation to create a parameterized sentence planner for story generation that provides aggregation operations, variations in discourse and in point of view. Finally, we present a user evaluation of different personal narrative retellings},
+  abbr={Storytelling}
+}
+
+
+@inproceedings{lukin2015narrative,
+  title={Narrative variations in a virtual storyteller},
+  author={Lukin, Stephanie M and Walker, Marilyn A},
+  booktitle={Intelligent Virtual Agents: 15th International Conference, (IVA)},
+  pages={320--331},
+  year={2015},
+  organization={Springer},
+  html={https://www.researchgate.net/profile/Marilyn-Walker-5/publication/280297613_Narrative_Variations_in_a_Virtual_Storyteller/links/55aff92a08aeb0ab46698352/Narrative-Variations-in-a-Virtual-Storyteller.pdf},
+  bibtex_show={true},
+  abstract={Research on storytelling over the last 100 years has distinguished at least two levels of narrative representation (1) story, or fabula; and (2) discourse, or sujhet. We use this distinction to create Fabula Tales, a computational framework for a virtual storyteller that can tell the same story in different ways through the implementation of general narratological variations, such as varying direct vs. indirect speech, character voice (style), point of view, and focalization. A strength of our computational framework is that it is based on very general methods for re-using existing story content, either from fables or from personal narratives collected from blogs. We first explain how a simple annotation tool allows naíve annotators to easily create a deep representation of fabula called a story intention graph, and show how we use this representation to generate story tellings automatically. Then we present results of two studies testing our narratological parameters, and showing that different tellings affect the reader’s perception of the story and characters.},
+  abbr={Storytelling}
+}
+
+@article{lukin2014identifying,
+  title={Identifying Subjective and Figurative Language in Online Dialogue},
+  author={Lukin, Stephanie M and Eisenberg, Luke and Corcoran, Thomas and Walker, Marilyn A},
+  journal={Pacific Northwest Regional NLP Workshop (NWNLP)},
+  year={2014},
+  html={https://www.researchgate.net/profile/Stephanie-Lukin/publication/319349901_Identifying_Subjective_and_Figurative_Language_in_Online_Dialogue/links/59f001cfa6fdcce2096dcecf/Identifying-Subjective-and-Figurative-Language-in-Online-Dialogue.pdf},
+  bibtex_show={true},
+  abstract={More and more of the information on the web is dialogic, from Facebook newsfeeds, to forum conversations, to comment threads on news articles. In contrast to traditional, monologic resources such as news, highly social dialogue is very frequent in social media. We aim to automatically identify sarcastic and nasty utterances in unannotated online dialogue, extending a bootstrapping method previously applied to the classification of monologic subjective sentences in Riloff and Weibe 2003. We have adapted the method to fit the sarcastic and nasty dialogic domain. Our method is as follows: 1) Explore methods for identifying sarcastic and nasty cue words and phrases in dialogues; 2) Use the learned cues to train a sarcastic (nasty) Cue-Based Classifier; 3) Learn general syntactic extraction patterns from the sarcastic (nasty) utterances and define fine-tuned sarcastic patterns to create a Pattern-Based Classifier; 4) Combine both Cue-Based and fine-tuned Pattern-Based Classifiers to maximize precision at the expense of recall and test on unannotated utterances.},
+  abbr={Sarcasm}
+}
+
+@inproceedings{swanson2014getting,
+  title={Getting Reliable Annotations for Sarcasm in Online Dialogues},
+  author={Swanson, Reid and Lukin, Stephanie and Eisenberg, Luke and Corcoran, Thomas and Walker, Marilyn},
+  booktitle={Proceedings of the Ninth International Conference on Language Resources and Evaluation (LREC'14)},
+  pages={4250--4257},
+  year={2014},
+  html={http://www.lrec-conf.org/proceedings/lrec2014/pdf/1063_Paper.pdf},
+  bibtex_show={true},
+  abstract={The language used in online forums differs in many ways from that of traditional language resources such as news. One difference is the use and frequency of nonliteral, subjective dialogue acts such as sarcasm. Whether the aim is to develop a theory of sarcasm in dialogue, or engineer automatic methods for reliably detecting sarcasm, a major challenge is simply the difficulty of getting enough reliably labelled examples. In this paper we describe our work on methods for achieving highly reliable sarcasm annotations from untrained annotators on Mechanical Turk. We explore the use of a number of common statistical reliability measures, such as Kappa, Karger’s, Majority Class, and EM. We show that more sophisticated measures do not appear to yield better results for our data than simple measures such as assuming that the correct label is the one that a majority of Turkers apply},
+  abbr={Sarcasm}
+}
+
+
+
+
+@article{justo2014extracting,
+  title={Extracting relevant knowledge for the detection of sarcasm and nastiness in the social web},
+  author={Justo, Raquel and Corcoran, Thomas and Lukin, Stephanie M and Walker, Marilyn and Torres, M In{\'e}s},
+  journal={Knowledge-Based Systems},
+  volume={69},
+  pages={124--133},
+  year={2014},
+  publisher={Elsevier},
+  html={https://www.sciencedirect.com/science/article/pii/S0950705114002226?casa_token=p5z2BLY8_RQAAAAA:GeDhy11UmyjAsdE7TsqeKnvkmMNigapm0P1lLSPfL3TIV5IbMN0bppWb-TXuY3d5Gouy--IS0Q},
+  bibtex_show=true,
+  abstract={Automatic detection of emotions like sarcasm or nastiness in online written conversation is a difficult task. It requires a system that can manage some kind of knowledge to interpret that emotional language is being used. In this work, we try to provide this knowledge to the system by considering alternative sets of features obtained according to different criteria. We test a range of different feature sets using two different classifiers. Our results show that the sarcasm detection task benefits from the inclusion of linguistic and semantic information sources, while nasty language is more easily detected using only a set of surface patterns or indicators.},
+  abbr={Sarcasm}
+}
+
+@inproceedings{lukin2014automating,
+  title={Automating direct speech variations in stories and games},
+  author={Lukin, Stephanie and Ryan, James and Walker, Marilyn},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence and Interactive Digital Entertainment},
+  volume={10},
+  number={4},
+  pages={18--23},
+  year={2014},
+  html={https://www.researchgate.net/profile/Stephanie-Lukin/publication/319391390_Automating_Direct_Speech_Variations_in_Stories_and_Games/links/59f001dc458515c3cc4374fc/Automating-Direct-Speech-Variations-in-Stories-and-Games.pdf},
+  bibtex_show={true},
+  abstract={Dialogue authoring in large games requires not only content creation but the subtlety of its delivery, which can vary from character to character. Manually authoring this dialogue can be tedious, time-consuming, or even altogether infeasible. This paper utilizes a rich narrative representation for modeling dialogue and an expressive natural language generation engine for realizing it, and expands upon a translation tool that bridges the two. We add functionality to the translator to allow direct speech to be modeled by the narrative representation, whereas the original translator supports only narratives told by a third person narrator. We show that we can perform character substitution in dialogues. We implement and evaluate a potential application to dialogue implementation: generating dialogue for games with big, dynamic, or procedurally-generated open worlds. We present a pilot study on human perceptions of the personalities of characters using direct speech, assuming unknown personality types at the time of authoring.},
+  abbr={Storytelling}
+}
+
+
+@inproceedings{lukin2014building,
+  title={Building community and commitment with a virtual coach in mobile wellness programs},
+  author={Lukin, Stephanie M and Youngblood, G Michael and Du, Honglu and Walker, Marilyn},
+  booktitle={Intelligent Virtual Agents: 14th International Conference, IVA 2014, Boston, MA, USA, August 27-29, 2014. Proceedings 14},
+  pages={279--284},
+  year={2014},
+  organization={Springer},
+  html={https://www.researchgate.net/profile/Marilyn-Walker-5/publication/300361461_Building_Community_and_Commitment_with_a_Virtual_Coach_in_Mobile_Wellness_Programs/links/599fca9b0f7e9b36390366c4/Building-Community-and-Commitment-with-a-Virtual-Coach-in-Mobile-Wellness-Programs.pdf},
+  bibtex_show={true},
+  abstract={FittleBot is virtual coach provided as part of a mobile application named Fittle that aims to provide users with social support and motivation for achieving the user’s health and wellness goals. Fittle’s wellness challenges are based around teams, where each team has its own FittleBot to provide personalized recommendations, support team building and provide information or tips. Here we present a quantitative analysis from a 2-week field study where we test new FittleBot strategies to increase FittleBot’s effectiveness in building team community. Participants using the enhanced FittleBot improved compliance over the two weeks by 8.8% and increased their sense of community by 4%.}
+}
+
+
+@article{arouche2014machine,
+  title={A machine learning framework for TCP round-trip time estimation},
+  author={Arouche Nunes, Bruno Astuto and Veenstra, Kerry and Ballenthin, William and Lukin, Stephanie and Obraczka, Katia},
+  journal={EURASIP Journal on Wireless Communications and Networking},
+  volume={2014},
+  pages={1--22},
+  year={2014},
+  publisher={Springer},
+  html={https://link.springer.com/article/10.1186/1687-1499-2014-47},
+  bibtex_show={true},
+  abstract={In this paper, we explore a novel approach to end-to-end round-trip time (RTT) estimation using a machine-learning technique known as the experts framework. In our proposal, each of several ‘experts’ guesses a fixed value. The weighted average of these guesses estimates the RTT, with the weights updated after every RTT measurement based on the difference between the estimated and actual RTT. Through extensive simulations, we show that the proposed machine-learning algorithm adapts very quickly to changes in the RTT. Our results show a considerable reduction in the number of retransmitted packets and an increase in goodput, especially in more heavily congested scenarios. We corroborate our results through ‘live’ experiments using an implementation of the proposed algorithm in the Linux kernel. These experiments confirm the higher RTT estimation accuracy of the machine learning approach which yields over 40% improvement when compared against both standard transmission control protocol (TCP) as well as the well known Eifel RTT estimator. To the best of our knowledge, our work is the first attempt to use on-line learning algorithms to predict network performance and, given the promising results reported here, creates the opportunity of applying on-line learning to estimate other important network variables.}
+}
+
+@inproceedings{rishes2013generating,
+  title={Generating different story tellings from semantic representations of narrative},
+  author={Rishes, Elena and Lukin, Stephanie M and Elson, David K and Walker, Marilyn A},
+  booktitle={Interactive Storytelling: 6th International Conference, ICIDS 2013, Istanbul, Turkey, November 6-9, 2013, Proceedings 6},
+  pages={192--204},
+  year={2013},
+  organization={Springer},
+  bibtex_show={true},
+  html={https://arxiv.org/pdf/1708.08573.pdf},
+  abstract={In order to tell stories in different voices for different audiences, interactive story systems require: (1) a semantic representation of story structure, and (2) the ability to automatically generate story and dialogue from this semantic representation using some form of Natural Language Generation (NLG). However, there has been limited research on methods for linking story structures to narrative descriptions of scenes and story events. In this paper we present an automatic method for converting from Scheherazade’s story intention graph, a semantic representation, to the input required by the personage NLG engine. Using 36 Aesop Fables distributed in DramaBank, a collection of story encodings, we train translation rules on one story and then test these rules by generating text for the remaining 35. The results are measured in terms of the string similarity metrics Levenshtein Distance and BLEU score. The results show that we can generate the 35 stories with correct content: the test set stories on average are close to the output of the Scheherazade realizer, which was customized to this semantic representation. We provide some examples of story variations generated by personage. In future work, we will experiment with measuring the quality of the same stories generated in different voices, and with techniques for making storytelling interactive.},
+  abbr={Storytelling}
+}
+
+@article{lukin2013really,
+  title={Really? well. apparently bootstrapping improves the performance of sarcasm and nastiness classifiers for online dialogue},
+  author={Lukin, Stephanie and Walker, Marilyn},
+  journal={Workshop on Language Analysis in Social Media (LASM) at NAACL},
+  year={2013},
+  html={https://www.academia.edu/download/38733778/W13-1104.pdf},
+  abstract={More and more of the information on the web is dialogic, from Facebook newsfeeds, to forum conversations, to comment threads on news articles. In contrast to traditional, monologic Natural Language Processing resources such as news, highly social dialogue is frequent in social media, making it a challenging context for NLP. This paper tests a bootstrapping method, originally proposed in a monologic domain, to train classifiers to identify two different types of subjective language in dialogue: sarcasm and nastiness. We explore two methods of developing linguistic indicators to be used in a first level classifier aimed at maximizing precision at the expense of recall. The best performing classifier for the first phase achieves 54% precision and 38% recall for sarcastic utterances. We then use general syntactic patterns from previous work to create more general sarcasm indicators, improving precision to 62% and recall to 52%. To further test the generality of the method, we then apply it to bootstrapping a classifier for nastiness dialogic acts. Our first phase, using crowdsourced nasty indicators, achieves 58% precision and 49% recall, which increases to 75% precision and 62% recall when we bootstrap over the first level with generalized syntactic patterns.},
+bibtex_show={true},
+abbr={Sarcasm}
+}
+
+@inproceedings{nunes2011machine,
+  bibtex_show={true},
+  title={A machine learning approach to end-to-end rtt estimation and its application to tcp},
+  author={Nunes, Bruno AA and Veenstra, Kerry and Ballenthin, William and Lukin, Stephanie and Obraczka, Katia},
+  booktitle={2011 Proceedings of 20th International Conference on Computer Communications and Networks (ICCCN)},
+  pages={1--6},
+  year={2011},
+  organization={IEEE},
+  abstract={In this paper, we explore a novel approach to end-toend round-trip time (RTT) estimation using a machine-learning technique known as the Experts Framework. In our proposal, each of several 'experts' guesses a fixed value. The weighted average of these guesses estimates the RTT, with the weights updated after every RTT measurement based on the difference between the estimated and actual RTT. Through extensive simulations we show that the proposed machine-learning algorithm adapts very quickly to changes in the RTT. Our results show a considerable reduction in the number of retransmitted packets and a increase in goodput, in particular on more heavily congested scenarios. We corroborate our results through “live” experiments using an implementation of the proposed algorithm in the Linux kernel. These experiments confirm the higher accuracy of the machine learning approach with more than 40% improvement, not only over the standard TCP, but also over the well known Eifel RTT estimator},
+  html={https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=6006098&casa_token=sS11gmG9mJ4AAAAA:SZFYq4b_O8N7BqPDrBNGBgeFmmiA2PATcUpxeCKpdtiSVVK1sV5hbh3ebwG6pbjZ3LkZUhaQ2A&tag=1}
 }
