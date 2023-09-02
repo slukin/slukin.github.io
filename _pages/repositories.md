@@ -2,10 +2,14 @@
 layout: page
 permalink: /repositories/
 title: repositories
-description: Public datasets available through my work at ARL and UCSC.
+description: 
 nav: true
 nav_order: 3
 ---
+
+Public datasets available through my work at ARL and UCSC.
+
+- The ARL Creative Visual Storytelling Anthology is a collection of 100 author responses to an improved creative visual storytelling exercise. Each item contains four facet entries, corresponding to Entity, Scene, Narrative, and Title. The ARL Creative Visual Storytelling Anthology was collected on Amazon Mechanical Turk.
 
 
 {% if site.data.repositories.github_users %}
