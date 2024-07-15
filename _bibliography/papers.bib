@@ -1,10 +1,66 @@
 ---
 ---
 
+@inproceedings{lukin-etal-2024-scout-situated,
+  bibtex_show={true},
+    title = "{SCOUT}: A Situated and Multi-Modal Human-Robot Dialogue Corpus",
+    author = "Lukin, Stephanie M.  and
+      Bonial, Claire  and
+      Marge, Matthew  and
+      Hudson, Taylor A.  and
+      Hayes, Cory J.  and
+      Pollard, Kimberly  and
+      Baker, Anthony  and
+      Foots, Ashley N.  and
+      Artstein, Ron  and
+      Gervits, Felix  and
+      Abrams, Mitchell  and
+      Henry, Cassidy  and
+      Donatelli, Lucia  and
+      Leuski, Anton  and
+      Hill, Susan G.  and
+      Traum, David  and
+      Voss, Clare",
+    booktitle = "Proceedings of the 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation (LREC-COLING 2024)",
+    year = "2024",
+    address = "Torino, Italia",
+    publisher = "ELRA and ICCL",
+    html = "https://aclanthology.org/2024.lrec-main.1259",
+    pages = "14445--14458",
+    abstract = "We introduce the Situated Corpus Of Understanding Transactions (SCOUT), a multi-modal collection of human-robot dialogue in the task domain of collaborative exploration. The corpus was constructed from multiple Wizard-of-Oz experiments where human participants gave verbal instructions to a remotely-located robot to move and gather information about its surroundings. SCOUT contains 89,056 utterances and 310,095 words from 278 dialogues averaging 320 utterances per dialogue. The dialogues are aligned with the multi-modal data streams available during the experiments: 5,785 images and 30 maps. The corpus has been annotated with Abstract Meaning Representation and Dialogue-AMR to identify the speaker{'}s intent and meaning within an utterance, and with Transactional Units and Relations to track relationships between utterances to reveal patterns of the Dialogue Structure. We describe how the corpus and its annotations have been used to develop autonomous human-robot systems and enable research in open questions of how humans speak to robots. We release this corpus to accelerate progress in autonomous, situated, human-robot dialogue, especially in the context of navigation tasks where details about the environment need to be discovered.",
+    selected={true},
+   abbr={HRI}
+}
+
+@inproceedings{10.1145/3643834.3660685,
+  bibtex_show={true},
+author = {Halperin, Brett A. and Lukin, Stephanie M},
+title = {Artificial Dreams: Surreal Visual Storytelling as Inquiry Into AI 'Hallucination'},
+year = {2024},
+isbn = {9798400705830},
+publisher = {Association for Computing Machinery},
+html = {https://doi.org/10.1145/3643834.3660685},
+abstract = {What does it mean for stochastic artificial intelligence (AI) to 'hallucinate' when performing a literary task as open-ended as creative visual storytelling? In this paper, we investigate AI 'hallucination' by stress-testing a visual storytelling algorithm with different visual and textual inputs designed to probe dream logic inspired by cinematic surrealism. Following a close reading of 100 visual stories that we deem artificial dreams, we describe how AI “hallucination” in computational visual storytelling is the opposite of groundedness: literary expression that is ungrounded in the visual or textual inputs. We find that this lack of grounding can be a source of either creativity or harm entangled with bias and illusion. In turn, we disentangle these obscurities and discuss steps toward addressing the perils while harnessing the potentials for innocuous cases of AI 'hallucination' to enhance the creativity of visual storytelling.},
+booktitle = {Proceedings of the 2024 ACM Designing Interactive Systems Conference},
+pages = {619–637},
+   abbr={Visual Storytelling}
+}
+
+
+@inproceedings{lukin2024chrisbot,
+  title={CHRIS-Bot: A Robot for Dialogue and Scene Understanding of Anomalous Environments in Virtual Reality},
+  author={Lukin, Stephanie M and South, Jaci and Bowser, Shawn},
+  booktitle={DEVCOM Army Research Laboratory Technical Report},
+  year={2024},
+  html={},
+  abstract={Robots can play a critical role in supporting human teammates; however, there are many challenges to ensuring effective collaboration under unknown or anomalous conditions. Natural language is a useful method for allowing humans to issue instructions at a high level. However, we further enhance the human-robot dialogue paradigm by increasing the robot’s ability to provide common ground for the conversation by performing scene understanding and reporting back on its findings. We offer the following contributions in this report: 1) a human-robot vignette centered around the train derailment in East Palestine, Ohio, USA, in February 2023 that we modeled in a simulated platform; 2) a robot implementation to autonomously navigate this 3-D space as dictated by natural language instructions using sentence embeddings and cosine similarity for the robot’s dialogue management; and 3) scene understanding using Vision-Language Models to analyze a visual snapshot of the environment and generate a textual analysis for the human teammate. We conclude with a list of planned tasks to evaluate the models at the algorithmic level as well as for their efficacy in assisting a human in information gathering and disaster relief tasks},
+  bibtex_show={true},
+  abbr={HRI}
+}
+
 
 
 @inproceedings{halperin2023envisioning,
-  abbr={CHI},
   bibtex_show={true},
   title={Envisioning Narrative Intelligence: A Creative Visual Storytelling Anthology},
   author={Halperin, Brett A and Lukin, Stephanie M},
@@ -19,14 +75,12 @@
 }
 
 @inproceedings{lukin2023see,
-  abbr={Workshop},
   bibtex_show={true},
   title={SEE&TELL: Controllable Narrative Generation from Images},
   author={Lukin, Stephanie M and Eum, Sungmin},
   booktitle={The AAAI-23 Workshop on Creative AI Across Modalities},
   year={2023},
   html={https://openreview.net/pdf?id=_8Ity3P03Z1},
-  bibtex_show={true},
   abstract={We propose a visual storytelling framework with a distinction between what is present and observable in the visual storyworld, and what story is ultimately told. We implement a model that tells a story from an image using three affordances: 1) a fixed set of visual properties in an image that constitute a holistic representation its contents, 2) a variable stage direction that establishes the story setting, and 3) incremental questions about character goals. The generated narrative plans are then realized as expressive texts using few-shot learning. Following this approach, we generated 64 visual stories and measured the preservation, loss, and gain of visual information throughout the pipeline, and the willingness of a reader to take action to read more. We report different proportions of visual information preserved and lost depending upon the phase of the pipeline and the stage direction's apparent relatedness to the image, and report 83% of stories were found to be interesting.},
   abbr={Visual Storytelling},
   selected={true}
@@ -40,13 +94,10 @@
   year={2023},
   html={https://apps.dtic.mil/sti/pdfs/AD1189942.pdf},
   abstract={At the US Army Combat Capabilities Development Command Army Research Laboratory, we are studying behavior, buildingdata sets, and developing technology for anomaly classification and explanation, in which an autonomous agent generatesnatural language descriptions and interpretations of environments that may contain anomalous properties. This technology willsupport decision-making in uncertain conditions and resilient autonomous maneuvers where a Soldier and robot teammatecomplete exploratory navigation tasks in unknown or dangerous environments under network-constrained circumstances eg, search and rescue following a natural disaster. We detail our contributions in this report as follows we designed an anomalytaxonomy drawing upon related work in visual anomaly detection we designed two experiments taking place in virtualenvironments that were manipulated to exhibit anomalous properties based on the taxonomy we collected a small corpus ofhuman speech and humanrobot dialogue for an anomaly detection and explanation task and finally, we designed a novelannotation schema and applied it to a subset of our corpus.},
-  bibtex_show={true},
   abbr={Visual Storytelling}
 }
 
 @inproceedings{summers2023brainstorm,
-  abbr={Workshop},
-  bibtex_show={true},
   title={Brainstorm, then Select: a Generative Language Model Improves Its Creativity Score},
   author={Summers-Stay, Douglas and Voss, Clare R and Lukin, Stephanie M},
   booktitle={The AAAI-23 Workshop on Creative AI Across Modalities},
@@ -66,7 +117,6 @@
   bibtex_show={true},
   abstract={Human-guided robotic exploration is a useful approach to gathering information at remote locations, especially those that might be too risky, inhospitable, or inaccessible for humans. Maintaining common ground between the remotely-located partners is a challenge, one that can be facilitated by multi-modal communication. In this paper, we explore how participants utilized multiple modalities to investigate a remote location with the help of a robotic partner. Participants issued spoken natural language instructions and received from the robot: text-based feedback, continuous 2D LIDAR mapping, and upon-request static photographs. We noticed that different strategies were adopted in terms of use of the modalities, and hypothesize that these differences may be correlated with success at several exploration sub-tasks. We found that requesting photos may have improved the identification and counting of some key entities (doorways in particular) and that this strategy did not hinder the amount of overall area exploration. Future work with larger samples may reveal the effects of more nuanced photo and dialogue strategies, which can inform the training of robotic agents. Additionally, we announce the release of our unique multi-modal corpus of human-robot communication in an exploration context: SCOUT, the Situated Corpus on Understanding Transactions.},
   abbr={HRI},
-  selected={true}
 }
 
 @inproceedings{marge2023bot,
@@ -290,7 +340,6 @@
   html={https://aclanthology.org/P18-4.pdf#page=107},
   bibtex_show={true},
   abstract={ScoutBot is a dialogue interface to physical and simulated robots that supports collaborative exploration of environments. The demonstration will allow users to issue unconstrained spoken language commands to ScoutBot. ScoutBot will prompt for clarification if the user's instruction needs additional input. It is trained on human-robot dialogue collected from Wizard-of-Oz experiments, where robot responses were initiated by a human wizard in previous interactions. The demonstration will show a simulated ground robot (Clearpath Jackal) in a simulated environment supported by ROS (Robot Operating System).},
-  selected={true},
   abbr={HRI}
 }
 
@@ -442,7 +491,6 @@ abbr={NLG}
   bibtex_show={true},
   abstract={Computational visual storytelling produces a textual description of events and interpretations depicted in a sequence of images. These texts are made possible by advances and cross-disciplinary approaches in natural language processing, generation, and computer vision. We define a computational creative visual storytelling as one with the ability to alter the telling of a story along three aspects: to speak about different environments, to produce variations based on narrative goals, and to adapt the narrative to the audience. These aspects of creative storytelling and their effect on the narrative have yet to be explored in visual storytelling. This paper presents a pipeline of task-modules, Object Identification, Single-Image Inferencing, and Multi-Image Narration, that serve as a preliminary design for building a creative visual storyteller. We have piloted this design for a sequence of images in an annotation task. We present and analyze the collected corpus and describe plans towards automation.},
   abbr={Visual Storytelling},
-  selected={true}
 }
 
 @phdthesis{lukin2017doctor,

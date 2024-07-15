@@ -65,6 +65,13 @@
 - title: Program Committees
   type: time_table
   contents:
+    - year: 2024
+      items: 
+        - OC | Games and Natural Language Processing (Games and NLP’24) at LREC-COLING 2024
+        - Reviewer | Joint International Conference on Computational Linguistics, Language Resources and Evaluation (LREC-COLING'24)
+        - Reviewer | Workshop on Spatial Language Understanding and Grounded Communication for Robotics (SpLU-RoboNLP'24)
+        - Reviewer | IEEE Robotics and Automation Letters (RA-L)
+
     - year: 2023
       items:
         - Reviewer | Association for Computational Linguistics (ACL’23)

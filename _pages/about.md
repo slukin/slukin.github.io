@@ -17,7 +17,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
-I am a computer science researcher at the Army Resesarch Laboratory. 
+I am a senior computer science researcher at the Army Resesarch Laboratory. 
 
 My work covers visual storytelling, narrative intelligence, and multi-modal human-robot dialogue.
 
