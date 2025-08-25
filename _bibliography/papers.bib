@@ -1,6 +1,68 @@
 ---
 ---
 
+
+@inproceedings{halperin2025camera,
+  bibtex_show={true},
+  title={{From Camera-Eye to AI: Exploring the Interplay of Cinematography and Computational Visual Storytelling}},
+  author={Halperin, Brett A and Lukin, Stephanie M},
+  booktitle={Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems},
+  pages={1--18},
+  year={2025},
+  html = {https://dl.acm.org/doi/pdf/10.1145/3706598.3713840},
+  abstract = {While much prior work on computational visual storytelling analyzes image content, it largely overlooks formal elements. This raises the question: how might particular cinematographic techniques shape a system’s interpretation and narration of imagery? To investigate this question, we generate 60 responses from a Vision Language Model using a multi-faceted prompt paired with different still frames from Man with a Movie Camera (1929), a silent documentary film renowned for its innovative cinematography. We present three themes that highlight roles of cinematography in computational visual storytelling: (1) how AI discerns drama and power from camera shots and angles that portray social reality; (2) how AI (mis)interprets lighting and focus techniques that compose ambiguous reality; and (3) how AI navigates visual effects that render surreality. In turn, we look toward cinematic controls to reimagine users as directors of visual storytelling systems, and discuss how expressive AI can support speculating about the past.},
+  abbr={Visual Storytelling}
+}
+
+@inproceedings{bowser2025towards,
+  bibtex_show={true},
+  title={Towards Integrated Multimodal Interaction: Merging Immersive 3D Worlds with Language Based Retrieval for 3D Scene Understanding},
+  author={Bowser, Shawn and Matuszek, Cynthia and Lukin, Stephanie},
+  booktitle={Proceedings of the 6th Workshop on Intelligent Cross-Data Analysis and Retrieval},
+  pages={32--37},
+  year={2025},
+  html={https://dl.acm.org/doi/pdf/10.1145/3733566.3734430},
+  abstract={We propose a novel multimodal interactive system for 3D scene understanding and question-answering for disaster scenarios and related tasks. Our approach creates open-domain annotations for arbitrary RGB image sequences, enabling natural language-based retrieval of 3D scenes. We incorporate an automated evaluation strategy using a vision-language model (VLM) to identify temporal differences between two scenes, significantly increasing scene understanding and same-place recognition accuracy. We demonstrate the robustness of our method on dynamic scenes, including indoor environments and real-world disasters. Finally, we test our method within human-agent collaboration by designing a novel interface for users to ask questions and retrieve visual evidence from a 3D scene rendered with 3D Gaussian Splatting (3DGS) as well as navigate through it on a desktop. Users were highly engaged with the interface, and succeeded in providing visual evidence using natural language based queries and navigation for tasks with properties that may appear in emergency responses. Both the method and task-based interface lay foundations for more resilient emergency management technologies that can adapt to rapidly changing environments},
+  abbr={HRI}
+}
+
+@inproceedings{higgins2025gesture,
+  bibtex_show={true},
+  title={Language and Gesture in Virtual Reality: Is a Gesture Worth 1000 Words?},
+  author={Higgins, Padraig and Hayes, Cory and Lukin, Stephanie M and Matuszek, Cynthia},
+  booktitle={Proceedings of the 6th Workshop on Intelligent Cross-Data Analysis and Retrieval},
+  pages={32--37},
+  year={2025},
+  html={},
+  abstract={Robots are increasingly incorporating multimodal information and human signals to resolve ambiguity in embodied human-robot interaction. Harnessing signals such as gestures may expedite robot exploration in large, outdoor urban environments for supporting disaster recovery operations, where speech may be unclear due to noise or the challenges of a dynamic and dangerous environment. Despite this potential, capturing human gesture and properly grounding it to crowded, outdoor environments remains a challenge. In this work, we propose a method to model human gesture and ground it to spoken language instructions given to a robot for execution in large spaces. We implement our method in virtual reality to develop a workflow for faster future data collection. We present a series of proposed experiments that compare a language-only baseline to our proposed language supplemented by gesture approach, and discuss how our approach has the potential to reinforce the human’s intent and detect discrepancies in gesture and spoken instructions in these large and crowded environments.},
+  abbr={HRI}
+}
+
+@inproceedings{eskandari2025llm,
+  bibtex_show={true},
+  title={LLM-Supported Safety Annotation in High-Risk Environments},
+  author={Eskandari, Mohammad and Indukuri, Murali and Lukin, Stephanie M and Matuszek, Cynthia},
+  booktitle={HRI 2025 Workshop VAM-HRI},
+  year={2025},
+  html={https://openreview.net/pdf?id=Ewg3WsMBRv},
+  abstract={This paper investigates user acceptance, performance, and usability of large language model-based robotic systems as intelligent assistants for anomaly identification in high risk scenarios, which can be presented to a human operator in a safe virtual rendering of the environment. We present a system where a robot powered by a state-of-the-art large visionlanguage model autonomously annotates potential hazards in a virtual world. Each identified hazard delivers contextual safety information to the human user through a virtual reality interface. We conducted a user study to evaluate the system’s performance across metrics such as trust, user satisfaction, and efficiency. Results demonstrated high user satisfaction and clear hazard communication, while trust remained moderate.},
+  abbr={HRI}
+}
+
+@inproceedings{lukin2024mumosa,
+  bibtex_show={true},
+  title={MUMOSA, Interactive Dashboard for MUlti-MOdal Situation Awareness},
+  author={Lukin, Stephanie M and Bowser, Shawn and Suchocki, Reece and Summers-Stay, Douglas and Ferraro, Francis and Matuszek, Cynthia and Voss, Clare},
+  booktitle={Proceedings of the Workshop on the Future of Event Detection (FuturED)},
+  pages={32--47},
+  year={2024},
+  html = "https://aclanthology.org/2024.futured-1.4.pdf",
+  abstract = "Information extraction has led the way for event detection from text for many years. Recent advances in neural models, such as Large Language Models (LLMs) and Vision-Language Models (VLMs), have enabled the integration of multiple modalities, providing richer sources of information about events. Concurrently, the development of schema graphs and 3D reconstruction methods has enhanced our ability to visualize and annotate complex events. Building on these innovations, we introduce the MUMOSA (MUlti-MOdal Situation Awareness) interactive dashboard that brings these diverse resources together. MUMOSA aims to provide a comprehensive platform for event situational awareness, offering users a powerful tool for understanding and analyzing complex scenarios across modalities.",
+  abbr={Multimodal IE},
+  selected={true},
+}
+
+
 @inproceedings{10.1145/3643834.3660685,
   bibtex_show={true},
 author = {Halperin, Brett A. and Lukin, Stephanie M},
@@ -26,8 +88,22 @@ pages = {619–637},
     publisher = "IEEE",
     html = "",
     abstract = "In order to assist a humans' ability to make decisions in uncertain and high-stakes scenarios, e.g., disaster relief, we aim to provide an interactive and ``smart'' visual model of an environment that a human can explore and query. We contribute a method for photorealistic 3D reconstruction of a scene from 2D images using improvements to 3D Gaussian Splatting (3DGS) methods. We showcase our process using a synthetic scene and showing a high level of fidelity between the ground truth synthetic scene and the reconstruction. We visualize the 3D reconstruction through a proof-of-concept web interface with robot ego-centric and exo-centric views, as well as semantic labels of objects within the scene, through which a human can interact.  We discuss our ongoing design of one such human-robot collaborative task using this interface.",
-    selected={true},
     abbr={HRI}
+}
+
+@article{bonial2024human,
+  bibtex_show={true},
+  title={Human--robot dialogue annotation for multi-modal common ground},
+  author={Bonial, Claire and Lukin, Stephanie M and Abrams, Mitchell and Baker, Anthony and Donatelli, Lucia and Foots, Ashley and Hayes, Cory J and Henry, Cassidy and Hudson, Taylor and Marge, Matthew and others},
+  journal={Language Resources and Evaluation},
+  pages={1--51},
+  year={2024},
+  publisher={Springer},
+  html = "https://arxiv.org/pdf/2411.12829",
+  abstract = "In this paper, we describe the development of symbolic representations annotated on human–robot dialogue data to make dimensions of meaning accessible to autonomous systems participating in collaborative, natural language dialogue, and to enable common ground with human partners. A particular challenge for establishing common ground arises in remote dialogue (occurring in disaster relief or searchand- rescue tasks), where a human and robot are engaged in a joint navigation and exploration task of an unfamiliar environment, but where the robot cannot immediately share high quality visual information due to limited communication constraints. Engaging in a dialogue provides an effective way to communicate, while on-demand or lower-quality visual information can be supplemented for establishing common ground. Within this paradigm, we capture propositional semantics and the illocutionary force of a single utterance within the dialogue through our Dialogue- AMR annotation, an augmentation of Abstract Meaning Representation. We then capture patterns in how different utterances within and across speaker floors relate to one another in our development of a multi-floor Dialogue Structure annotation schema. Finally, we begin to annotate and analyze the ways in which the visual modalities provide contextual information to the dialogue for overcoming disparities in the collaborators’ understanding of the environment. We conclude by discussing the use-cases, architectures, and systems we have implemented from our annotations
+that enable physical robots to autonomously engage with humans in bi-directional dialogue and navigation.",
+  abbr={HRI},
+  selected={true}
 }
 
 @inproceedings{lukin-etal-2024-scout-situated,
@@ -57,7 +133,6 @@ pages = {619–637},
     html = "https://aclanthology.org/2024.lrec-main.1259",
     pages = "14445--14458",
     abstract = "We introduce the Situated Corpus Of Understanding Transactions (SCOUT), a multi-modal collection of human-robot dialogue in the task domain of collaborative exploration. The corpus was constructed from multiple Wizard-of-Oz experiments where human participants gave verbal instructions to a remotely-located robot to move and gather information about its surroundings. SCOUT contains 89,056 utterances and 310,095 words from 278 dialogues averaging 320 utterances per dialogue. The dialogues are aligned with the multi-modal data streams available during the experiments: 5,785 images and 30 maps. The corpus has been annotated with Abstract Meaning Representation and Dialogue-AMR to identify the speaker{'}s intent and meaning within an utterance, and with Transactional Units and Relations to track relationships between utterances to reveal patterns of the Dialogue Structure. We describe how the corpus and its annotations have been used to develop autonomous human-robot systems and enable research in open questions of how humans speak to robots. We release this corpus to accelerate progress in autonomous, situated, human-robot dialogue, especially in the context of navigation tasks where details about the environment need to be discovered.",
-    selected={true},
    abbr={HRI}
 }
 
@@ -96,8 +171,7 @@ pages = {619–637},
   year={2023},
   html={https://openreview.net/pdf?id=_8Ity3P03Z1},
   abstract={We propose a visual storytelling framework with a distinction between what is present and observable in the visual storyworld, and what story is ultimately told. We implement a model that tells a story from an image using three affordances: 1) a fixed set of visual properties in an image that constitute a holistic representation its contents, 2) a variable stage direction that establishes the story setting, and 3) incremental questions about character goals. The generated narrative plans are then realized as expressive texts using few-shot learning. Following this approach, we generated 64 visual stories and measured the preservation, loss, and gain of visual information throughout the pipeline, and the willingness of a reader to take action to read more. We report different proportions of visual information preserved and lost depending upon the phase of the pipeline and the stage direction's apparent relatedness to the image, and report 83% of stories were found to be interesting.},
-  abbr={Visual Storytelling},
-  selected={true}
+  abbr={Visual Storytelling}
 }
 
 @inproceedings{lukin2023learning,
