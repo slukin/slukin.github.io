@@ -1,0 +1,42 @@
+assets/pdf/ -> for adding new CV
+
+__bibliography/ -> for adding paper entries in .bib format
+
+__data/repositories.yml -> for editing the linked repos
+
+__data/cv.yml -> for editing the online cv content (e.g., reviewer experience)
+
+__pages/ -> for editing the html for about.md, cv.md, publications.md and repositories.md
+
+
+TO TEST LOCALLY 
+```
+docker compose up
+```
+If there is an error, make sure to edit `docker-compose.yml` and ensure line 5 is `image: amirpourmand/al-folio:v0.10.1`
+
+http://0.0.0.0:8080
+
+TO PUSH
+git push -u origin master
+
+
+
+assets/json/resume.json ??
+
+/config.yml (scholar)
+
+_bibliography/
+- papers.bib
+
+_data/
+- coauthors.yml
+- cv.yml
+- repositories.yml
+- venues.yml
+
+_pages/
+- about.md
+- cv.md
+- publications.md
+- repositories.md

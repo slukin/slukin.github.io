@@ -21,9 +21,14 @@
 - title: Experience
   type: time_table
   contents:
-    - title: Computer Science Researcher
+    - title: Senior Computer Scientist
       institution: Army Research Laboratory
-      year: 2018 - present
+      year: 2023 - present
+      description:
+
+    - title: Computer Scientist
+      institution: Army Research Laboratory
+      year: 2017 - 2023
       description:
 
     - title: Postdoctorate Fellow
@@ -65,6 +70,23 @@
 - title: Program Committees
   type: time_table
   contents:
+    - year: 2026
+      items: 
+        - Reviewer | Language Resources and Evaluation (LREC’26),
+        - Reviewer | Student Research Workshop at EACL (SRW’26),
+        - Reviewer | International Conference on Intelligent Robots and Systems (IROS’26)
+        - Reviewer | Conversational User Interfaces (CUI’26)
+        - Reviewer | International Conference on Robot and Human Interactive Communication (RO-MAN’26)
+
+    - year: 2025
+      items: 
+        - Reviewer | Computer Human Interaction (CHI’25)
+        - Reviewer | Empirical Methods for Natural Language Processing (EMNLP’25)
+        - Reviewer | International Conference on Robotics and Automation (ICRA’25)
+        - Reviewer | Nations of America Association for Computational Linguistics (NAACL’25)
+        - Reviewer | Workshop on SPACE in Vision, Language, and Embodied AI (SpaVLE’25)
+
+
     - year: 2024
       items: 
         - OC | Games and Natural Language Processing (Games and NLP’24) at LREC-COLING 2024

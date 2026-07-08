@@ -1,6 +1,79 @@
 ---
 ---
 
+@inproceedings{lukin2026non,
+  bibtex_show={true},
+  title={{🏆 Non-Event Oriented Video Assessments in Long-Form Robot Videos}},
+  author={Lukin, Stephanie M and Pollard, Kimberly A and Bonial, Claire N and Hayes, Cory J and Artstein, Ron and Georgila, Kallirroi and Traum, David},
+  booktitle={Proceedings of the 2nd Workshop on Multimodal Augmented Generation via Multimodal Retrieval ({MAGM}a{R} 2026)},
+  pages={27--41},
+  year={2026},
+  html = {https://aclanthology.org/2026.magmar-main.8/},
+  abstract = {We introduce Video-SCOUT, a novel dataset of sixty 20-minute robot-recorded videos from human-robot collaborative exploration exercises, together with a new video analysis method for these types of exploration videos. Unlike video from stationary cameras where detection of motion can help identify events of interest, the camera in an exploration task is constantly in motion while the environment is stationary. Our analysis method{---}Non-Event Oriented Video Assessments (NOVA){---}uses vision-language models to select frames relevant for supporting a particular assessment within continuous long-form videos. Results of testing with two different video-language models reveals a trade-off in precision and recall, and exhibits gains in overall recall when combined with a human{'}s knowledge, suggesting that NOVA may improve a human analysis of robot-navigation. We outline future work to mitigate miscommunication in human-robot interaction by leveraging dialogue with NOVA in support of better collaboration.},
+  abbr={HRI},
+  selected={true},
+}
+
+@inproceedings{sahetai2026what,
+  bibtex_show={true},
+  title={{What and Why: Benchmarking Bidirectional Intentional Reasoning in Multimodal Robot Tasks}},
+  author={Sahetai, Muskan, and Matuszek, Cynthia and May, An and Ferraro, Francis and Darvish, Kasra and Lukin, Stephanie and Wen, Ruchen, and Newell, Evie},
+  booktitle={IEEE International Conference on Robot and Human Interactive Communication (RO-MAN)},
+  pages={},
+  year={2026},
+  html = {},
+  abstract = {},
+  abbr={HRI}
+}
+
+@inproceedings{ogbadu2026ask,
+  bibtex_show={true},
+  title={{Ask-to-Act: Learning When Robots Should Clarify Ambiguous Grounded Instructions. }},
+  author={Ogbadu, Ekele and Lukin, Stephanie and Matuszek, Cynthia},
+  booktitle={IEEE International Conference on Robot and Human Interactive Communication (RO-MAN)},
+  pages={},
+  year={2026},
+  html = {},
+  abstract = {},
+  abbr={HRI}
+}
+
+@inproceedings{indukuri2026hazard,
+  bibtex_show={true},
+  title={{Hazard or Anomaly? Evaluating VLMs for Understanding Dangers and Discrepancies}},
+  author={Indukuri, Murali Krishna Varma, and Eskandari, Mohammad and Kollu, Sree Nitya and Lukin, Stephanie and Matuszek, Cynthia},
+  booktitle={IEEE International Conference on Robot and Human Interactive Communication (RO-MAN)},
+  pages={},
+  year={2026},
+  html = {},
+  abstract = {},
+  abbr={HRI}
+}
+
+@inproceedings{eskandari2026autonomous,
+  bibtex_show={true},
+  title={{Autonomous VR-Based Risk Detection for Situational Awareness in Dangerous Settings}},
+  author={Eskandari, Mohammad and Indukuri, Murali Krishna Varma, and Kollu, Sree Nitya and Lukin, Stephanie and Matuszek, Cynthia},
+  booktitle={IEEE International Conference on Robot and Human Interactive Communication (RO-MAN)},
+  pages={},
+  year={2026},
+  html = {},
+  abstract = {},
+  abbr={HRI}
+}
+
+@inproceedings{chang2025aha,
+  bibtex_show={true},
+  title={{Aha! - Predicting What Matters Next: Online Highlight Detection Without Looking Ahead}},
+  author={Chang, Aiden and de Melo, Celso and Lukin, Stephanie},
+  booktitle={Advances in Neural Information Processing Systems (NeurIPS_)},
+  pages={8049--8087},
+  year={2025},
+  html = {https://proceedings.neurips.cc/paper_files/paper/2025/file/0bd7c1a579459520e4d731a14b7bda7d-Paper-Conference.pdf},
+  abstract = {Real-time understanding of continuous video streams is essential for intelligent agents operating in high-stakes environments, including autonomous vehicles, surveillance drones, and disaster response robots. Yet, most existing video understanding and highlight detection methods assume access to the entire video during inference, making them unsuitable for online or streaming scenarios. In particular, current models optimize for offline summarization, failing to support step-by-step reasoning needed for real-time decision-making. We introduce Aha, an autoregressive highlight detection framework that predicts the relevance of each video frame against a task described in natural language. Without accessing future video frames, Aha utilizes a multimodal vision-language model and lightweight, decoupled heads trained on a large, curated dataset of human-centric video labels. To enable scalability, we introduce the Dynamic SinkCache mechanism that achieves constant memory usage across infinite-length streams without degrading performance on standard benchmarks. This encourages the hidden representation to capture high-level task objectives, enabling effective frame-level rankings for informativeness, relevance, and uncertainty with respect to the natural language task. Aha achieves state-of-the-art (SOTA) performance on highlight detection benchmarks, surpassing even prior offline, full-context approaches and video-language models by +5.9\% on TVSum and +8.3\% on Mr.Hisum in mAP (mean Average Precision). We explore Aha’s potential for real-world robotics applications given a task-oriented natural language input and a continuous, robot-centric video. Both experiments demonstrate Aha's potential effectiveness as a real-time reasoning module for downstream planning and long-horizon understanding.},
+  abbr={HRI}
+}
+
 
 @inproceedings{halperin2025camera,
   bibtex_show={true},
@@ -30,11 +103,22 @@
   bibtex_show={true},
   title={Language and Gesture in Virtual Reality: Is a Gesture Worth 1000 Words?},
   author={Higgins, Padraig and Hayes, Cory and Lukin, Stephanie M and Matuszek, Cynthia},
-  booktitle={Proceedings of the 6th Workshop on Intelligent Cross-Data Analysis and Retrieval},
+  booktitle={AAAI Fall Symposium: Unifying Representations for Robot Application Development},
   pages={32--37},
   year={2025},
-  html={},
+  html={https://ojs.aaai.org/index.php/AAAI-SS/article/download/36947/39085},
   abstract={Robots are increasingly incorporating multimodal information and human signals to resolve ambiguity in embodied human-robot interaction. Harnessing signals such as gestures may expedite robot exploration in large, outdoor urban environments for supporting disaster recovery operations, where speech may be unclear due to noise or the challenges of a dynamic and dangerous environment. Despite this potential, capturing human gesture and properly grounding it to crowded, outdoor environments remains a challenge. In this work, we propose a method to model human gesture and ground it to spoken language instructions given to a robot for execution in large spaces. We implement our method in virtual reality to develop a workflow for faster future data collection. We present a series of proposed experiments that compare a language-only baseline to our proposed language supplemented by gesture approach, and discuss how our approach has the potential to reinforce the human’s intent and detect discrepancies in gesture and spoken instructions in these large and crowded environments.},
+  abbr={HRI}
+}
+
+@inproceedings{ogbadu2025grounded,
+  bibtex_show={true},
+  title={Grounded Instruction Understanding with Large Language Models: Toward Trustworthy Human-Robot Interaction},
+  author={Ogbadu, Ekele and Lukin, Stephanie M and Matuszek, Cynthia},
+  booktitle={AAAI Fall Symposium: AI Trustworthiness and Risk Assessment for Challenging Contexts},
+  year={2025},
+  html={https://ojs.aaai.org/index.php/AAAI-SS/article/download/36890/39028},
+  abstract={Understanding natural language as a representational bridge between perception and action is critical for deploying autonomous robots in complex, high-risk environments. This work investigates how large language models (LLMs) can support this bridge by interpreting unconstrained human instructions in urban disaster response scenarios. Leveraging the SCOUT corpus, a multimodal dataset capturing human-robot dialogue through Wizard-of-Oz experiments, we construct SCOUT++, aligning over 11,000 visual frames with language commands and robot actions. We evaluate three instruction classification approaches: a neural network trained on tokenized text, GPT-4 using text alone, and GPT-4 with synchronized visual input. Results show that while GPT-4 (text-only) outperforms traditional models in accuracy, its multimodal variant exhibits degraded performance, often producing vague or hallucinated outputs. These findings expose the challenges of reliably grounding language in visual context and raise questions about the trustworthiness of foundation models in safety-critical settings. We contribute SCOUT++, a reproducible multimodal pipeline, and benchmark results that shed light on the capabilities and current limitations of vision-language models for risk-sensitive human-robot interaction.},
   abbr={HRI}
 }
 
@@ -59,7 +143,6 @@
   html = "https://aclanthology.org/2024.futured-1.4.pdf",
   abstract = "Information extraction has led the way for event detection from text for many years. Recent advances in neural models, such as Large Language Models (LLMs) and Vision-Language Models (VLMs), have enabled the integration of multiple modalities, providing richer sources of information about events. Concurrently, the development of schema graphs and 3D reconstruction methods has enhanced our ability to visualize and annotate complex events. Building on these innovations, we introduce the MUMOSA (MUlti-MOdal Situation Awareness) interactive dashboard that brings these diverse resources together. MUMOSA aims to provide a comprehensive platform for event situational awareness, offering users a powerful tool for understanding and analyzing complex scenarios across modalities.",
   abbr={Multimodal IE},
-  selected={true},
 }
 
 
@@ -79,16 +162,17 @@ pages = {619–637},
 
 @inproceedings{bowser20243dgs,
   bibtex_show={true},
-    title = "3D Gaussian Splatting for Human-Robot Interaction",
+    title = "🏆 3D Gaussian Splatting for Human-Robot Interaction",
     author = "Bowser, Shawn and 
       Lukin, Stephanie M.",
-    booktitle = "Interactive AI for Human-Centered Robotics Workshop at RO-MAN. Best Paper Award",
+    booktitle = "Interactive AI for Human-Centered Robotics Workshop at RO-MAN",
     year = "2024",
     address = "Pasadena, California, USA",
     publisher = "IEEE",
     html = "",
     abstract = "In order to assist a humans' ability to make decisions in uncertain and high-stakes scenarios, e.g., disaster relief, we aim to provide an interactive and ``smart'' visual model of an environment that a human can explore and query. We contribute a method for photorealistic 3D reconstruction of a scene from 2D images using improvements to 3D Gaussian Splatting (3DGS) methods. We showcase our process using a synthetic scene and showing a high level of fidelity between the ground truth synthetic scene and the reconstruction. We visualize the 3D reconstruction through a proof-of-concept web interface with robot ego-centric and exo-centric views, as well as semantic labels of objects within the scene, through which a human can interact.  We discuss our ongoing design of one such human-robot collaborative task using this interface.",
-    abbr={HRI}
+    abbr={HRI},
+    selected={true}
 }
 
 @article{bonial2024human,
